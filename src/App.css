@@ -9,6 +9,7 @@ textarea{
  background-color:#dfc6ec;
  outline: none;
  z-index:2;
+ padding-left:1vw;
 }
 .editorContainer {
  border: 1px solid black;
@@ -17,7 +18,7 @@ textarea{
   height:fit-content;
   margin-top: 2vh;
 }
-h3{
+.titlePreview{
   background-color: #9340bf;
   border: 1px solid black; 
 }
@@ -29,9 +30,11 @@ h3{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4); 
   z-index:1;
   margin-bottom: 2vh;
+  
 }
 #preview {
   overflow-wrap: break-word;
+  padding-left: 1vw;
 }
 @media (max-width: 500px) {
   textarea{
@@ -40,4 +43,10 @@ h3{
   .preview {
     width: 85vw;
   }
+}
+#preview > p >img {
+  width: 30vw;
+}
+ul, ol {
+  padding-left: 1vw;
 }

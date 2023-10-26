@@ -1,8 +1,8 @@
-import Editor from './editor.jsx';
+import Editor from './features/editor.jsx';
 
 import './App.css'
 
-function App() {
+export default function App() {
 
 
   return (
@@ -13,4 +13,4 @@ function App() {
   )
 }
 
-export default App
+
